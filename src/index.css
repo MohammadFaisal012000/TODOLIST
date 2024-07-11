@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.app-head{
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.app-heading{
+  text-align: center;
+  color: gray;
+  text-transform: capitalize;
+  text-decoration: underline;
+  padding: 1rem 0px;
+}
+
+.app-task{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black ;
+  margin: 0 auto;
+  min-height: 300px;
+  padding-top: 1rem;
+  
+}
+
+
+
